@@ -1,0 +1,30 @@
+{
+  "name": "prova3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src",
+    "dev": "ts-node-dev ./src",
+    "pessoas": "ts-node-dev ./src/indexPessoas.ts",
+    "estudantes": "ts-node-dev ./src/indexEstudantes.ts",
+    "disciplinas": "ts-node-dev ./src/indexDisciplina.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/node-fetch": "^2.6.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "gitignore": "^0.7.0",
+    "mongoose": "^8.8.2",
+    "node-fetch": "^2.7.0",
+    "p3tp": "file:",
+    "prova3": "file:",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
